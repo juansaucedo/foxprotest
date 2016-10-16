@@ -25,7 +25,7 @@
 	require_once "Table.class.php";
 	
 	/* create a table object and open it */
-	$table = new XBaseTable("test/bond.DBF");
+	$table = new XBaseTable("PROVEEDORES.DBF");
 	$table->open();
 
 	/* print some header info */
